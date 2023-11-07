@@ -11,7 +11,7 @@ export default function QrCard() {
 					width={400}
 					height={400}
 				/>
-				<div className="px-6 space-y-4">
+				<div className="md:px-6 space-y-4">
 					<h2 className="font-semibold text-2xl">
 						Improve your front-end skills by building projects
 					</h2>

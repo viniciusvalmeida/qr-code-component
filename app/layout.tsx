@@ -17,7 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${outfit.className} bg-lightGray min-h-screen flex justify-center items-center`}
+				className={`${outfit.className} bg-lightGray min-h-screen flex justify-center items-center p-6 md:p-0`}
 			>
 				{children}
 			</body>
