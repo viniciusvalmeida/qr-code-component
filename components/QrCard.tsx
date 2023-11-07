@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function QrCard() {
 	return (
-		<div className="w-80 bg-white rounded-xl p-4 flex flex-col justify-center items-center shadow-xl">
+		<div className="w-80 bg-white rounded-xl p-4 flex flex-col justify-center items-center shadow-2xl shadow-darkBlue/20">
 			<div className="flex flex-col justify-center items-center text-center space-y-4">
 				<Image
 					className="rounded-xl"
-					src={"/image-qr-code.png"}
+					src="/image-qr-code.png"
 					alt="QR Code"
 					width={300}
 					height={300}
